@@ -33,7 +33,7 @@ public class Problem2 {
         if (A == null) A = new int[0];
         if (B == null) B = new int[0];
         if (A.length > B.length) {
-            return getMedianSmart(A, B);
+            return getMedianSmart(B, A);
         }
         int m = A.length, n = B.length;
         int low = 0, high = m;
